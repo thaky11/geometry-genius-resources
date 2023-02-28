@@ -19,6 +19,7 @@ const pentaSideb = document.getElementById('sideb');
 //card 6
 const ellipseA = document.getElementById('ellipse1');
 const ellipseB = document.getElementById('ellipse2');
+//blog
 function triangleResult (){
    const triang1 =areaBase.value ;
    const triang2 = areaHeight.value;
