@@ -81,3 +81,16 @@ pentaResult
 
 )
 //CARD 6
+function ellipseResult (){
+   const ellip1 = ellipseA.value ;
+   const ellip2 = ellipseB.value;
+   const result = 3.14 *ellip1 * ellip2;
+   allResult.innerText = result;
+   console.log(result,ellip1,ellip2)
+   
+ }
+ document.getElementById('btn-ellipse').addEventListener('click', 
+ ellipseResult
+ 
+ )
+ 
