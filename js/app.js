@@ -45,9 +45,15 @@ rectangleResult
 )
 //3rd
 
+function paraResult (){
+   const para1 =paraBase.value ;
+   const para2 = paraHeight.value;
+   const result = para1 * para2;
+   allResult.innerText = result;
+   
+}
+document.getElementById('btn-para').addEventListener('click', 
 
-
-
- 
-
- 
+paraResult
+)
+//card 4
