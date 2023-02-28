@@ -57,3 +57,27 @@ document.getElementById('btn-para').addEventListener('click',
 paraResult
 )
 //card 4
+function rhombusResult (){
+   const rhom1 =rhomdia1.value ;
+   const rhom2 = rhomdia2.value;
+   const result = 0.5 * rhom1 * rhom2 ;
+   allResult.innerText = result;
+   
+}
+document.getElementById('btn-rhom').addEventListener('click', 
+rhombusResult
+
+)
+//card 5
+function pentaResult (){
+  const penta1 =pentaSidep.value ;
+  const penta2 = pentaSideb.value;
+  const result = 0.5 *penta1  * penta2;
+  allResult.innerText = result;
+  
+}
+document.getElementById('btn-penta').addEventListener('click', 
+pentaResult
+
+)
+//CARD 6
