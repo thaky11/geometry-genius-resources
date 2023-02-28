@@ -4,14 +4,21 @@ const areaBtn = document.getElementById('btn-area');
 // result
 const allResult = document.getElementById('area-result');
 // result
-//cart2
+//card 2
 const rectWidth = document.getElementById('recW');
 const rectHeight = document.getElementById('recH');
-//cart3
+//card 3
 const paraBase = document.getElementById('paraB');
 const paraHeight = document.getElementById('paraH');
-
-
+//card 4
+const rhomdia1 =document.getElementById('rhomd1');
+const rhomdia2 =document.getElementById('rhomd2');
+//card 5
+const pentaSidep = document.getElementById('sidep');
+const pentaSideb = document.getElementById('sideb');
+//card 6
+const ellipseA = document.getElementById('ellipse1');
+const ellipseB = document.getElementById('ellipse2');
 function triangleResult (){
    const triang1 =areaBase.value ;
    const triang2 = areaHeight.value;
@@ -38,17 +45,7 @@ rectangleResult
 )
 //3rd
 
-function paraResult (){
-    const para1 =paraBase.value ;
-    const para2 = paraHeight.value;
-    const result = para1 * para2;
-    allResult.innerText = result;
-    
- }
- document.getElementById('btn-para').addEventListener('click', 
 
- paraResult
- )
 
 
  

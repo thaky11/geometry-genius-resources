@@ -9,6 +9,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+  <div class="flex justify-between my-4 mx-4 bg-blue-200 px-3 py-3">
+    <div>
+      <h1>Interactive </h1>
+      <h2>Geometry Genius</h2>
+    </div>
+    <div>
+      <button class="bg-blue-600 px-4 py-2 rounded">Blog</button>
+    </div>
+  </div>
    <div class="flex justify-center  ">
     <div class="grid grid-cols-2  gap-2 ">
     <div class="card  bg-base-100 shadow-xl bg-purple-400">
@@ -29,8 +38,8 @@
           </div>
         </div> 
       </div>
-       <!-- 2nd cart -->
-       <div class="card  bg-base-100 shadow-x">
+       <!-- 2nd card -->
+       <div class="card  bg-base-100 shadow-x bg-pink-400">
         <figure class="px-10 pt-10">
           <img src="images//rectangle.png"  class="rounded-xl" />
         </figure>
@@ -48,8 +57,8 @@
           </div>
         </div> 
       </div>
-    <!-- cart 3 -->
-    <div class="card  bg-base-100 shadow-x">
+    <!-- card 3 -->
+    <div class="card  bg-base-100 shadow-x bg-lime-200">
         <figure class="px-10 pt-10">
           <img src="images//rectangle.png"  class="rounded-xl" />
         </figure>
@@ -67,9 +76,8 @@
           </div>
         </div> 
       </div>
-    </div>
-    <!-- cardt4 -->
-    <div class="card  bg-base-100 shadow-x">
+       <!-- card4 -->
+    <div class="card  bg-base-100 shadow-x bg-purple-400">
         <figure class="px-10 pt-10">
           <img src="images//rhombus.png"  class="rounded-xl" />
         </figure>
@@ -79,7 +87,7 @@
           <div class="flex space-x-5 mb-5">
             <input id="rhomd1" type="number" placeholder="d1" class="input input-bordered w-20" />
             <label for="cm">cm</label>
-    <input  id="romh2" type="number" placeholder="d2" class="input input-bordered w-20"/>
+    <input  id="rhomd2" type="number" placeholder="d2" class="input input-bordered w-20"/>
     <label for="cm">cm</label>
           </div>
           <div class="card-actions" >
@@ -87,6 +95,46 @@
           </div>
         </div> 
       </div>
+        <!-- card5 -->
+    <div class="card  bg-base-100 shadow-x bg-red-400">
+        <figure class="px-10 pt-10">
+          <img src="images/pentagon.png"  class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Pentagon</h2>
+          <p>Area (A) =  0.5 * p* b</p>
+          <div class="flex space-x-5 mb-5">
+            <input id="sidep" type="number" placeholder="p" class="input input-bordered w-20" />
+            <label for="cm">cm</label>
+    <input  id="sideb" type="number" placeholder="b" class="input input-bordered w-20"/>
+    <label for="cm">cm</label>
+          </div>
+          <div class="card-actions" >
+            <button id="btn-penta" class="bg-blue-600 px-7 py-2 text-white">Calculate </button>
+          </div>
+        </div> 
+      </div>
+        <!-- card6 -->
+    <div class="card  bg-base-100 shadow-x bg-teal-300">
+        <figure class="px-10 pt-10">
+          <img src="images/ellipse.png"  class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Ellipse</h2>
+          <p>Area (A) =  3.14 * a* b</p>
+          <div class="flex space-x-5 mb-5">
+            <input id="ellipse1" type="number" placeholder="a" class="input input-bordered w-20" />
+            <label for="cm">cm</label>
+    <input  id="ellipse2" type="number" placeholder="b" class="input input-bordered w-20"/>
+    <label for="cm">cm</label>
+          </div>
+          <div class="card-actions" >
+            <button id="btn-ellipse" class="bg-blue-600 px-7 py-2 text-white">Calculate </button>
+          </div>
+        </div> 
+      </div>
+    </div>
+   
       <!-- calc -->  
       
       
